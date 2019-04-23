@@ -1,6 +1,6 @@
 import axios from 'axios';
 //axios needs to be manually added to the project
-const KEY = 'AIzaSyApfjRVYvpyD3IbgH9PHP2kVtOtWUnF-rc';
+const KEY = '{ENV_KEY}';
 
 export default axios.create({
     baseURL: 'https://www.googleapis.com/youtube/v3',
